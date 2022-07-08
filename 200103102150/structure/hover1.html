@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS DEMO</title>
+    <style>
+        div{
+            height:150px;
+            width:150px;
+            transition:2s;
+            font-size:25px;
+            font-weight:bold;
+            color:blueviolet;
+            background-color: darkslategrey;
+            text-align: center;
+        }
+        #Translateid:hover{
+            -webkit-transform:translate(100px,100px);
+            -moz-transform:translate(100px,100px);
+            -ms-transform:translate(100px,100px);
+            -o-transform:translate(100px,100px);
+            transform:translate(100px,100px);
+            background-color:green;
+            color:yellow;
+
+        }
+        #RotateDiv:hover {
+            -webkit-transform:rotate(360deg);
+            -moz-transform:rotate(360deg);
+            -ms-transform:rotate(360deg);
+            -o-transform:rotate(360deg);
+            transform:rotate(360deg);
+            background-color: blanchedalmond;
+            color:brown;
+
+        }
+        #RotateDiv3d:hover {
+            -webkit-transform:rotate3d(1,1,0,360deg);
+            -moz-transform:rotate3d(1,1,0,360deg);
+            -ms-transform:rotate3d(1,1,0,360deg);
+            -o-transform:rotate3d(1,1,0,360deg);
+            transform:rotate3d(1,1,0,360deg);
+            transform:rotate3d(1,1,0,360deg);
+            background-color: deeppink;
+            color:black;
+
+        
+        }
+        #SkewDiv:hover {
+            -webkit-transform:skew(75deg);
+            -moz-transform:skew(75deg);
+            -ms-transform:skew(75deg);
+            -o-transform:skew(75deg);
+            transform:skew(75deg);
+            background-color: crimson;
+            color:cyan;
+
+        }
+        #ScaleDiv:hover{
+            -webkit-transform:scale(1.5,0.5);
+            -moz-transform:scale(1.5,0.5);
+            -ms-transform:scale(1.5,0.5);
+            -o-transform:scale(1.5,0.5);
+            transform:scale(1.5,0.5);
+            background-color: rgb(20, 127, 220);
+            color:rgb(172, 145, 12);
+
+        }
+        #OpacityDiv:hover{
+            opacity:0.6;
+        }
+        #RGBADiv:hover{
+            background:rgba(128,128,0,0.5);
+        }
+        #BoxShadowDiv:hover{
+            box-shadow: 0px 0px 30px Red;
+        }
+        #TextShadowDiv:hover{
+            text-shadow: 4px 4px 4px blue;
+        }
+        #BorderRadiusDiv:hover{
+            border-radius: 67%;
+        }
+        #OverFlowDiv{overflow:auto;}
+            
+
+
+        
+ 
+
+    </style>
+</head>
+<body>
+    <div id="Translateid">Translate</div><hr>
+    <div id="RotateDiv">Rotate</div><hr>
+    <div id="RotateDiv3d">Rotate 3d</div><hr>
+    <div id="SkewDiv">Skew</div><hr>
+    <div id="ScaleDiv">Scale</div><hr>
+    <div id="OpacityDiv">Opacity</div><hr>
+    <div id="RGBADiv">RGBA</div><hr>
+    <div id="BoxShadowDiv">Box-Shadow</div><hr>
+    <div id="TextShadowDiv">Text-Shadow</div><hr>
+    <div id="BorderRadiusDiv">Border-Radius</div><hr>
+    <div id="OverFlowDiv">OverFlow OverFlow OverFlow OverFlow OverFlow OverFlow OverFlow OverFlow</div>
+</body>
+</html>
